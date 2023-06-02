@@ -1,0 +1,75 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a,
+p,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: blue;
+}
+
+.link-min {
+color: brown;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.title-min {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.videos-list {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+    grid-gap: 25px;
+} 
+.item {
+  padding-bottom: 20px;
+  background-color:bisque;
+  border-radius: 5px;
+}
+
+.img {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.title {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.description {
+  padding-right: 10px;
+  padding-left: 10px;
+}
